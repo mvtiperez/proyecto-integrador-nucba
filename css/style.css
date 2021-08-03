@@ -45,12 +45,10 @@ body {
 
 .logo a img {
     width: 100px;
-    align-items: center;
-    justify-content: center;
 }
 
 .nav {
-    width: 100%;
+    width: 50%;
 }
 
 .nav ul {
@@ -72,9 +70,9 @@ body {
 }
 
 .btn__login__register {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    text-align: center;
+    text-align: center; */
 }
 
 .btn__login__register a {
@@ -82,7 +80,7 @@ body {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     color: #fff;
 }
 
@@ -495,22 +493,28 @@ a {
 @media (min-width: 320px) and (max-width: 480px) {
     /* HEADER MQ-------------------------- */
     .header__content {
-        display: grid;
-        grid-template-columns: 1fr;
+        justify-content: center;
+        flex-direction: column;
     }
     .logo {
         display: none;
     }
     .nav {
-        display: none;
+        /* display: none; */
     }
     .nav ul {
         grid-template-columns: 1fr;
     }
+    .btn {
+        padding: 0;
+    }
     .btn__login__register {
-        display: none;
-        /* flex-direction: column;
-        align-items: center; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn__login__register a {
+        margin-bottom: .3rem;
     }
     .wrapper {
         padding: 1rem;
