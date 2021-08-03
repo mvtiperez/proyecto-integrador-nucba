@@ -491,6 +491,9 @@ a {
 /* MEDIA QUERIESS */
 
 @media (min-width: 320px) and (max-width: 480px) {
+    body {
+        background: #000;
+    }
     /* HEADER MQ-------------------------- */
     .header__content {
         justify-content: center;
