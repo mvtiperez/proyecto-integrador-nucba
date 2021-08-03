@@ -169,7 +169,7 @@ label {
         background: #000;
     }
     .wrapper {
-        padding: 2rem;
+        margin: 2rem;
     }
     .imagen {
         display: none;
