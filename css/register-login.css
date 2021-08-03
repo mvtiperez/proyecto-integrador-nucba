@@ -168,6 +168,9 @@ label {
     body {
         background: #000;
     }
+    .wrapper {
+        padding: 2rem;
+    }
     .imagen {
         display: none;
     }
