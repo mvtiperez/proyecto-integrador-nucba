@@ -31,19 +31,18 @@ img {
 }
 
 .primary__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 900px;
+    display: flex;
+    max-width: 100%;
     background: #000;
     box-shadow: 0 8px 32px 0 rgba(189, 189, 189, 0.37);
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 .register__content {
     width: 400px;
     max-width: 400px;
     max-height: 650px;
-    margin: 0 auto;
 }
 
 .create__account {
@@ -167,6 +166,9 @@ label {
 @media (max-width: 480px) {
     body {
         background: #000;
+        max-width: 80%;
+        width: 100%;
+        margin: 0 auto;
     }
     .wrapper {
         margin: 2rem;
@@ -175,7 +177,7 @@ label {
         display: none;
     }
     .primary__container {
-        display: inline-block;
+        /* display: inline-block; */
         box-shadow: none;
     }
     .register__content {
