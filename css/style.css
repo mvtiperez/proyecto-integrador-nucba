@@ -581,4 +581,11 @@ a {
     .footer__copy img {
         display: none;
     }
+    /* CARDS */
+    .container .card .card__head {
+        font-size: .7rem;
+    }
+    .container .card:hover .card__head {
+        font-size: 1rem;
+    }
 }
