@@ -194,6 +194,10 @@ p {
 
 /* PLAYER------------------------- */
 
+.history__team__players {
+    max-width: 100%;
+}
+
 .history__team__player {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -251,6 +255,10 @@ p {
 
 
 /* GAMES---------------------- */
+
+.history__team__games {
+    max-width: 100%;
+}
 
 .history__team__game {
     background-color: rgba(0, 0, 0, .6);
@@ -490,7 +498,7 @@ a {
 
 /* MEDIA QUERIESS */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
     body {
         background: #000;
     }
@@ -508,7 +516,7 @@ a {
     .nav ul {
         grid-template-columns: 1fr;
     }
-    .btn {
+    .header .btn {
         padding: 0;
     }
     .btn__login__register {
@@ -551,6 +559,12 @@ a {
     .history__team {
         grid-template-columns: 1fr;
     }
+    .history__team__player {
+        width: 90vw;
+    }
+    .history__team__game {
+        width: 90vw;
+    }
     .history__team__player_info {
         margin-left: 1rem;
     }
@@ -587,5 +601,12 @@ a {
     }
     .container .card:hover .card__head {
         font-size: 1rem;
+    }
+    /* OTROS------------- */
+    .contact__us__tittle h2,
+    .shop__tittle h2,
+    .history__tittle h2 {
+        font-size: 11vw;
+        padding: .3rem;
     }
 }
