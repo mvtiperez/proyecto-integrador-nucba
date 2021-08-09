@@ -130,15 +130,16 @@ body {
 
 /* WELCOME-------------------------- */
 
-.welcome img {
-    max-height: 90vh;
-    margin-top: 3rem;
-}
-
 .welcome {
     max-height: 100%;
     width: 100%;
     max-width: 100vw;
+    background-color: #000;
+}
+
+.welcome img {
+    max-height: 100%;
+    /* margin-top: 3rem; */
 }
 
 .history {
