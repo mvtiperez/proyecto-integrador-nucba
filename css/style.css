@@ -136,7 +136,7 @@ body {
 }
 
 .welcome {
-    max-height: 90vh;
+    max-height: 100%;
     width: 100%;
     max-width: 100vw;
 }
@@ -146,7 +146,6 @@ body {
 }
 
 .history__tittle {
-    padding: 50px 0;
     background-color: #000;
 }
 
@@ -575,9 +574,13 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 3rem;
     }
     .header .btn {
         padding: 0;
+    }
+    .history__tittle {
+        padding: 50px 0;
     }
 }
 
