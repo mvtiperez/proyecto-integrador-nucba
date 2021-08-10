@@ -343,6 +343,7 @@ p {
     transition: all 1s ease-in-out;
     height: 70vmin;
     position: relative;
+    cursor: pointer;
 }
 
 .container .card .card__head {
@@ -662,9 +663,10 @@ a {
     }
     .history__text {
         flex-direction: column;
+        padding-top: 0;
     }
     .history__text__content {
-        text-align: center;
+        text-align: left;
         justify-content: center;
         max-width: 100%;
         flex-direction: column;
