@@ -1,0 +1,96 @@
+* {
+    --navi-yellow: #FFF226;
+    --navi-grey: #24262C;
+    --navi-white: rgba(255, 255, 255, .5);
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1100px;
+    height: 80vh;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: var(--navi-white);
+}
+
+.player__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.player__container__info {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 60%;
+}
+
+.player__info__name h1 {
+    color: var(--navi-yellow);
+    font-size: 5rem;
+}
+
+.player__info__name p {
+    font-size: 2rem;
+    color: var(--navi-white);
+}
+
+.player__info__data__1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 1rem;
+}
+
+.player__info__data__desc p {
+    font-weight: lighter;
+}
+
+.player__info__data__1 span {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.player__info__socials {
+    max-width: 40%;
+    max-height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.player__info__socials i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.player__info__socials .fa-facebook-f:hover {
+    color: #1877f2;
+}
+
+.player__info__socials .fa-instagram:hover {
+    color: #405de6;
+}
+
+.player__info__socials .fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.player__info__socials .fa-twitch:hover {
+    color: #9146ff;
+}
+
+.player__info__socials .fa-steam:hover {
+    color: #000000;
+}
+
+.player__container_img {
+    width: 40%;
+}
+
+.player__container_img img {
+    width: 500px;
+}
