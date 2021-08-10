@@ -1,6 +1,7 @@
 
 # 📋Proyecto Integrador | Diseño Web  :computer:
 
-###### Mockup desktop
-<img src="/mockup/integradorNucbaDesktop.jpg" />
+###### Mockup desktop 
 <a href="https://proyecto-integrador-nucba-chi.vercel.app" target="_blank">Live demo</a>
+
+<img src="/mockup/integradorNucbaDesktop.jpg" />
