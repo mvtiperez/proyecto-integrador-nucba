@@ -177,7 +177,6 @@ label {
         display: none;
     }
     .primary__container {
-        /* display: inline-block; */
         box-shadow: none;
     }
     .register__content {

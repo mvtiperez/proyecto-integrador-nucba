@@ -28,8 +28,6 @@ body {
 
 /* NAVBAR----------------------------- */
 
-.header {}
-
 .logo a {
     display: flex;
 }
@@ -80,12 +78,6 @@ body {
 
 .nav a:hover {
     color: var(--navi-yellow);
-}
-
-.btn__login__register {
-    /*  display: flex;
-    justify-content: center;
-    text-align: center; */
 }
 
 .btn__login__register a {
@@ -644,9 +636,6 @@ a {
     .header__content {
         justify-content: center;
         flex-direction: column;
-    }
-    .nav {
-        /* display: none; */
     }
     .nav ul {
         grid-template-columns: 1fr;
